@@ -1,0 +1,78 @@
+.btn{
+    background-color:indigo;
+    color: white;
+padding: 4% 30%;
+border-radius: 7px;
+margin-right: 50px;
+}
+.active{
+    background-color: indigo;
+    color: white !important;
+    border-radius: 10px;
+
+}
+.nav-link{
+    color: lightslategrey;
+   
+}
+.fonthome{margin: auto;
+}
+#home{
+ background-color: indigo;
+ color: white
+
+}
+.badge{
+    background-color:indigo;
+    color: white;
+    border-radius: 30px;
+    margin-left: 20px;
+
+}
+.pomo{
+    margin-left: 10px;
+}
+.card{
+    border-radius: 20%;
+    border: none;
+
+}
+.fa-fa{
+    margin-right: 20px;
+}
+
+i{
+    margin-right: 10px;
+}
+img{
+    height: 30px;
+    width: 45px;
+    
+}
+.clock-icon{
+    font-size: 40px;
+    color: darkorange;
+    background-color: #FFCBA4;
+    text-align: center;
+    width: 60%;
+    border-radius: 15px;
+    margin-left: 30px;
+    padding: 4px;
+}
+.close{
+    margin-left: auto;
+    font-size: 30px;
+    color: black;
+}
+.nav{
+border-radius:18px;
+width: 100%
+
+}
+
+.nav-item {
+    margin-left: 25px;
+}
+.home{
+    color: black;
+}

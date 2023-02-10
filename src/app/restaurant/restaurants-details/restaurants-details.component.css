@@ -1,0 +1,26 @@
+img{
+    float: right;
+    width: 40%;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+p{
+    color:#626264;
+}
+.clock-icon{
+    font-size: 20PX;
+}
+.icon{
+    color: #626264;
+}
+i{
+    margin-right: 10px;
+}
+.btn{
+    margin-right: 20px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+}
+.active{
+    background-color: #503E9D;
+    color: white;}

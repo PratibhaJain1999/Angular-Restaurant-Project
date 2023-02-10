@@ -1,0 +1,42 @@
+img{
+    width: 40%;
+    border-radius: 20px;
+}
+.open{
+    background-color: rgba(80, 62, 157, 0.1);
+    float: right;
+margin-left: 10px;    border-radius: 10px;
+    color: #503E9D;
+}
+.img-container{
+    width: 50%;
+}
+.card{
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 35px;
+        width:312px;
+    
+}
+.card-img-top{
+    width: 310px;
+    height: 200px;
+    padding: 7px;
+    cursor: pointer;
+}
+p{
+    font-size: 9px;
+    line-height: 18px;
+}
+h4{
+    font-size: 15px;
+    
+}
+.close{
+    background-color: rgba(251, 109, 58, 0.1);
+    color: #FB6D3A;
+    float: right;
+    margin-left: 10px;    
+    border-radius: 10px;
+    font-size: 14px;
+}

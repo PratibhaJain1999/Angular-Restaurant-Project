@@ -1,0 +1,3 @@
+<!-- <p>restaurant works!</p> -->
+<app-restaurants-list (selectedID) ="selectedRestId($event)"></app-restaurants-list>
+<app-restaurants-details *ngIf = "selectedRestaurantId" [selectedRestaurantId] = "selectedRestaurantId"></app-restaurants-details>

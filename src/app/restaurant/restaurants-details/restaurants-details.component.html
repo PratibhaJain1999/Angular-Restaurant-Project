@@ -1,0 +1,34 @@
+<div class="row">
+<div class="container">
+    <h4><b>{{selectedRestDetails[0].restaurantName}}</b></h4>
+    <span>
+        <img src="{{selectedRestDetails[0].restaurantImage}}">
+
+        <p>{{selectedRestDetails[0].restaurantDescription}}</p><br>
+        
+       <div class="mx-auto">
+        <span><i class="far fa-clock clock-icon icon"></i>{{selectedRestDetails[0].openingHours}}</span>
+            <br><br>
+            <span><i class="fa fa-phone icon"> </i>{{selectedRestDetails[0].contactNumber}}</span>
+            <br><br>
+            <span><i class="fa fa-globe icon"></i></span> {{selectedRestDetails[0].websiteUrl}}<br>
+       </div>
+    </span>
+</div>
+<br>
+</div>
+    
+<hr>
+<div class="row">
+    <button type="button" class="btn active"><b>All</b></button>
+    <button type="button" class="btn">Baked(2)</button>
+    <button type="button" class="btn">Sweet(4)</button>
+    <button type="button" class="btn">Hot Dish(29)</button>
+
+</div><br>
+<div class="row">
+    <h3><b>Menu</b></h3>
+</div>
+<div class = "row">
+    <app-restaurant-menu [itemName] = "item.itemName" [itemPhoto] = "item.itemPhoto" [itemPrice] = "item.itemCost"  *ngFor = "let item of menu.menu"></app-restaurant-menu>
+</div>

@@ -1,0 +1,33 @@
+#btnn{
+    background-color:indigo
+}
+.container{
+margin-top: 12px;}
+.fa-home{
+ color: indigo;
+}
+#shop{
+    margin: 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#list{
+    background-color: indigo;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 375px;
+    background-color:#f8f9fa;
+    border: none;
+}
+.input-group{
+    margin-right: 15px;
+}
+.fa-search{
+    color: black;
+    background-color: #f8f9fa;
+}

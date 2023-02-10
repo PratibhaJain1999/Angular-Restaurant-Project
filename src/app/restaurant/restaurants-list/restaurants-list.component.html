@@ -1,0 +1,132 @@
+<!-- <p>restaurants-list works!</p> -->
+<div class="row">
+    <h3><b>Restaurants</b></h3>
+</div>
+<div class="row">
+    <div class="card" *ngFor = "let item of restaurants.allRestaurants"  (click)="selectRestaurant(item.id)">
+        <div class="img-container">
+            <img src="{{item.restaurantImage}}" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <div class="card-heading">
+                <h4><b>{{item.restaurantName}}</b>
+                    <a *ngIf = "item.isOpen" href="#" class="open">Open Now</a>
+                    <a *ngIf = "!item.isOpen" href="#" class="close">Close Now</a>
+                </h4>
+            </div>
+            <div class="text">
+                <p><b>{{item.restaurantDescription}}</b></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="card">
+        <div class="img-container">
+            <img src="../../../assets/images/pizza hut.jpg" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <div class="card-heading">
+                <h4><b> ExtraVagensa Pizza Hut</b>
+                    <a href="#" class="open ">Open Now</a>
+
+                </h4>
+            </div>
+            <div class="text">
+                <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    <br>elit.Curabitur ultricies quis lorem non mollis.<br>
+                    Fusce nec est at sem interdum congue. Aliquam venenatis turpis ac ...</b>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="card">
+        <div class="img-container">
+            <img src="../../../assets/images/Extravagensapzza.jpg" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <div class="card-heading">
+                <h4>
+                    <b>ExtraVagensa Pizza Hut</b>
+                    <a href="#" class="close">Close Now</a>
+                </h4>
+
+
+            </div>
+            <div class="text">
+                <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit.Curabitur ultricies
+                    quis lorem non mollis.<br>
+                    Fusce nec est at sem interdum congue. Aliquam venenatis turpis ac ...</b></p>
+            </div>
+        </div>
+
+    </div>
+    <div class="card">
+        <div class="img-container">
+            <img src="../../../assets/images/magic peperoni.jpg" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <div class="card-heading">
+                <h4>
+                    <b>Magic Peperoit</b>
+                    <a href="#" class="close">Close Now</a>
+                </h4>
+
+
+            </div>
+            <div class="text">
+                <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit.Curabitur ultricies
+                    quis lorem non mollis.<br>
+                    Fusce nec est at sem interdum congue. Aliquam venenatis turpis ac ...</b></p>
+            </div>
+        </div>
+
+    </div>
+    <div class="card">
+        <div class="img-container">
+            <img src="../../../assets/images/cheezy grill.jpg" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <div class="card-heading">
+                <h4>
+                    <b>Cheezy Grill</b>
+                    <a href="#" class="close">Close Now</a>
+                </h4>
+
+
+            </div>
+            <div class="text">
+                <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit.Curabitur ultricies
+                    quis lorem non mollis.<br>
+                    Fusce nec est at sem interdum congue. Aliquam venenatis turpis ac ...</b></p>
+            </div>
+        </div>
+
+    </div>
+    <div class="card">
+        <div class="img-container">
+            <img src="../../../assets/images/indian curries.jpg" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <div class="card-heading">
+                <h4>
+                    <b>Indian Curries</b>
+                    <a href="#" class="close">Close Now</a>
+                </h4>
+
+
+            </div>
+            <div class="text">
+                <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit.Curabitur ultricies
+                    quis lorem non mollis.<br>
+                    Fusce nec est at sem interdum congue. Aliquam venenatis turpis ac ...</b></p>
+            </div>
+        </div>
+
+    </div> -->
+
+
+</div>
+
+
