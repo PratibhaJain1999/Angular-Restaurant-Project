@@ -23,6 +23,7 @@ export class RestaurantsDetailsComponent implements OnInit,OnChanges {
     })
     this.detailsService.restaurantsDetails().subscribe(responsiveDetails => {
       this.restaurants = responsiveDetails;
+      
       this.selectedRestDetails = this.restaurants.restaurantDetails.filter((x:any) => x.id == this.selectedRestaurantId)
       console.log(this.selectedRestDetails);
     })
@@ -32,6 +33,7 @@ export class RestaurantsDetailsComponent implements OnInit,OnChanges {
   ngOnChanges(changes:SimpleChanges) {
     if(changes['selectedRestaurantId'] && changes['selectedRestaurantId'].currentValue) {
       this.selectedRestDetails = this.restaurants.restaurantDetails.filter((x:any) => x.id == changes['selectedRestaurantId'].currentValue);
-    }
+   
+   }
   }
 }
